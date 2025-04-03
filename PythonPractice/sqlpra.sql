@@ -30,6 +30,3 @@ insert into dept values(4,'Marketing','Chicago');
 insert into dept values(5,'Sales','Seattle');
 insert into dept values(6,'Operations','Boston');
 SELECT * FROM dept;
-
-USE sqlpractice;
-SELECT * FROM Products
