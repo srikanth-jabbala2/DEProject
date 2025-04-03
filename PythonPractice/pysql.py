@@ -1,4 +1,5 @@
 import pyodbc
+import pandas as pd
 
 # Define connection parameters
 server = 'localhost'  # e.g., 'localhost' or '192.168.1.100'
@@ -19,16 +20,26 @@ try:
     # Create a cursor object
     cursor = connection.cursor()
 
+   
     # Execute a query
-    cursor.execute("SELECT * FROM employee")
-
-    # Fetch and print results
-    for row in cursor.fetchall():
-        print(row)
-
-    # Close the connection
+    df = pd.DataFrame(cursor.execute("SELECT * from employee"))
+    print(df)
     cursor.close()
     connection.close()
+
+
+    # # for row in cursor.fetchall():
+    # #     print(row)
+
+    # df2 = pd.DataFrame(cursor.execute("SELECT * from dept"))
+    # df2.show()
+
+    # # # Fetch and print results
+    # # for row in cursor.fetchall():
+    # #     print(row)
+
+    # # Close the connection
+    
 
 except Exception as e:
     print("Error while connecting to SQL Server:", e)
