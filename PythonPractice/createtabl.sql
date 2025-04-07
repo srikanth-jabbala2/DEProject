@@ -1,27 +1,15 @@
 use sqlpractice;
 
-create table depttrans(
+create table deptrans(
     Id int primary key,
     Name varchar(50),
     DeptId int,
 )
-
+s
 -- DeptId is int, change it to varchar(50)
 alter table depttrans
 alter column DeptId varchar(50);
 -- DeptId is int, change it to varchar(50)
-
-INSERT  (1, "a", "aa"),
-    (1, "s", "ss"),
-    (2, "d", "dd"),
-    (2, "d", "dd"),
-    (3, "h", "gg"),
-    (4, "j", "h"),
-    (5, "k", "jj"),
-    (5, "k", "jj"),
-    (7, "o", "ww"),
-    (8, "u", "qq"),
-    (9, "t", "aa")
 
 INSERT INTO depttrans (Id, Name, DeptId) VALUES
 (1, 'a', 'aa'),
@@ -38,12 +26,15 @@ INSERT INTO depttrans (Id, Name, DeptId) VALUES
 
 SELECT * FROM depttrans ORDER BY id ASC;
 
+
+
 --remove duplicate rows using cte
 WITH CTE AS (
     SELECT *, ROW_NUMBER() OVER (PARTITION BY Id, Name, DeptId ORDER BY Id) AS rn
     FROM depttrans
 )
 DELETE FROM CTE WHERE rn > 1;
+
 
 
 DELETE FROM depttrans
