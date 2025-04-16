@@ -42,3 +42,37 @@ SELECT PRICE,
 FROM orderS
 ) 
 SELECT SUM(PRICE) as total,QTR FROM QRT GROUP BY QTR
+
+use sqlpractice;
+DROP TABLE IF EXISTS TRANSACTIONS;
+
+CREATE TABLE TRANSACTIONS(
+    TRASACTION_ID BIGINT PRIMARY KEY,
+    TRANSACTION_DATE DATE,
+    AMOUNT DECIMAL(10,2),
+    TRANSACTION_TYPE VARCHAR(50)
+)
+
+INSERT INTO TRANSACTIONS (TRASACTION_ID, TRANSACTION_DATE, AMOUNT, TRANSACTION_TYPE) VALUES
+(1, '2024-02-19T00:00:00.0000000', 100, 'Credit'),
+(2, '2024-02-19T00:00:00.0000000', 200, 'Debit'),
+(3, '2024-02-18T00:00:00.0000000', 300, 'Credit'),
+(4, '2024-02-18T00:00:00.0000000', 400, 'Debit'),
+(5, '2024-02-18T00:00:00.0000000', 400, 'Credit'),
+(6, '2024-02-18T00:00:00.0000000', 1800, 'Credit')
+
+
+
+SELECT * FROM TRANSACTIONS;
+
+
+select 
+    sum(case 
+        when TRANSACTION_TYPE='Credit' then +amount
+        when TRANSACTION_TYPE='Debit' then -amount
+        else 0 end) as total_amount,
+    cast(transaction_date as date) as transaction_date
+    from 
+    transactions
+    group by cast(transaction_date as date)
+    order by transaction_date desc;
