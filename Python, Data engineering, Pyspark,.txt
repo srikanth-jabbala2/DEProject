@@ -1,0 +1,7 @@
+Python, Data engineering, Pyspark, Azure Cloud, Databricks, CosmosDB.
+
+Technical expertise with data models, data mining, analytics and segmentation techniques - Knowledge of programming languages and environments such as Python
+
+
+[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true} Invoke-WebRequest -Uri "https://test-atlas-api.rickshawnetwork.com/api/abp/application-configuration"
+

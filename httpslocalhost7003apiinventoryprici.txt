@@ -1,0 +1,32 @@
+https://localhost:7003/api/inventory/pricing-tool/get-list
+
+
+Hi, I am representing Riksja Travel.
+
+In this sprint, we worked on wildix implementation and API security which are major features that are expected.
+We got demo a rating of 5 out of 5 and Impact score of 4.5 out 5.
+Its a successful sprint indeed.
+
+That's from my end, over to you
+
+
+labelIds: 893070a9-e039-89fe-5872-3a1140235ac4
+visibleTo: 2025-02-12T23:59:59Z
+deadlineDate: 2025-02-12T23:59:59Z
+done: false
+skipCount: 0
+maxResultCount: 20
+sorting: deadlineDate asc
+date: 1739278843963
+
+
+
+entityId: 1
+labelIds: 25405ff2-fd78-9c77-4381-3a1187f3ba19
+visibleTo: 2025-02-12T23:59:59Z
+deadlineDate: 2025-02-12T23:59:59Z
+done: false
+skipCount: 0
+maxResultCount: 20
+sorting: deadlineDate asc
+date: 1739278898156
