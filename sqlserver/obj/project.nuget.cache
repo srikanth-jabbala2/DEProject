@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "J4CqFGr+Aeo=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\jabbala\\OneDrive - DevOn India-NL BV\\Documents\\Big Data - Srikanth\\DEproject\\DEProject\\sqlserver\\sqlserver.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jabbala\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\jabbala\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512",
+    "C:\\Users\\jabbala\\.nuget\\packages\\microsoft.sqlserver.dacpacs.master\\160.0.0\\microsoft.sqlserver.dacpacs.master.160.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

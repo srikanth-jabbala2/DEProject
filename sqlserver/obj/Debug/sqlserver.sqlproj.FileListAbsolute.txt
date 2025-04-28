@@ -1,0 +1,14 @@
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\bin\Debug\sqlserver.dacpac
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\bin\Debug\sqlserver.deps.json
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\bin\Debug\sqlserver.dll
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\bin\Debug\sqlserver.pdb
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\bin\Debug\master.dacpac
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\sqlserver.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\sqlserver.sourcelink.json
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\Model.xml
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\refactor.xml
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\postdeploy.sql
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\predeploy.sql
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\sqlserver.sqlproj.Up2Date
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\sqlserver.dll
+c:\Users\jabbala\OneDrive - DevOn India-NL BV\Documents\Big Data - Srikanth\DEproject\DEProject\sqlserver\obj\Debug\sqlserver.pdb
